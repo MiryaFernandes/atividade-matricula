@@ -13,7 +13,7 @@ public class AlunoRepository {
 		
     public AlunoRepository(int quantidadeAlunos) {
 		
-		turma = new Aluno[32];
+		turma = new Aluno[quantidadeAlunos];
 	}
 
 	public void gravar(Aluno aluno, int posicao) {
