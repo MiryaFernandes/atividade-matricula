@@ -28,4 +28,9 @@ public class AlunoRepository {
 		return turma;
 	}
 
+	public int getTamanho() {
+		
+		return turma.length;
+	}
 }
+	
